@@ -1,0 +1,15 @@
+C:\Projects\Accounting\Accounting.Business\obj\Debug\netcoreapp3.0\Accounting.Business.csprojAssemblyReference.cache
+C:\Projects\Accounting\Accounting.Business\obj\Debug\netcoreapp3.0\Accounting.Business.AssemblyInfoInputs.cache
+C:\Projects\Accounting\Accounting.Business\obj\Debug\netcoreapp3.0\Accounting.Business.AssemblyInfo.cs
+C:\Projects\Accounting\Accounting.Business\bin\Debug\netcoreapp3.0\Accounting.Business.deps.json
+C:\Projects\Accounting\Accounting.Business\bin\Debug\netcoreapp3.0\Accounting.Business.dll
+C:\Projects\Accounting\Accounting.Business\bin\Debug\netcoreapp3.0\Accounting.Domain.dll
+C:\Projects\Accounting\Accounting.Business\bin\Debug\netcoreapp3.0\Accounting.Dto.dll
+C:\Projects\Accounting\Accounting.Business\bin\Debug\netcoreapp3.0\Accounting.Domain.pdb
+C:\Projects\Accounting\Accounting.Business\bin\Debug\netcoreapp3.0\Accounting.Dto.pdb
+C:\Projects\Accounting\Accounting.Business\obj\Debug\netcoreapp3.0\Accounting.Business.csproj.CopyComplete
+C:\Projects\Accounting\Accounting.Business\bin\Debug\netcoreapp3.0\Accounting.Business.pdb
+C:\Projects\Accounting\Accounting.Business\obj\Debug\netcoreapp3.0\Accounting.Business.dll
+C:\Projects\Accounting\Accounting.Business\obj\Debug\netcoreapp3.0\Accounting.Business.pdb
+C:\Projects\Accounting\Accounting.Business\bin\Debug\netcoreapp3.0\Accounting.Infastructure.dll
+C:\Projects\Accounting\Accounting.Business\bin\Debug\netcoreapp3.0\Accounting.Infastructure.pdb

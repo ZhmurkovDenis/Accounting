@@ -1,0 +1,407 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\Accounting\\Accounting.WebAPI\\Accounting.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\Accounting\\Accounting.Business\\Accounting.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Accounting\\Accounting.Business\\Accounting.Business.csproj",
+        "projectName": "Accounting.Business",
+        "projectPath": "C:\\Projects\\Accounting\\Accounting.Business\\Accounting.Business.csproj",
+        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Accounting\\Accounting.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Projects\\Accounting\\Accounting.Domain\\Accounting.Domain.csproj": {
+                "projectPath": "C:\\Projects\\Accounting\\Accounting.Domain\\Accounting.Domain.csproj"
+              },
+              "C:\\Projects\\Accounting\\Accounting.Infastructure\\Accounting.Infastructure.csproj": {
+                "projectPath": "C:\\Projects\\Accounting\\Accounting.Infastructure\\Accounting.Infastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Accounting\\Accounting.DataAccess\\Accounting.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Accounting\\Accounting.DataAccess\\Accounting.DataAccess.csproj",
+        "projectName": "Accounting.DataAccess",
+        "projectPath": "C:\\Projects\\Accounting\\Accounting.DataAccess\\Accounting.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Accounting\\Accounting.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Projects\\Accounting\\Accounting.Domain\\Accounting.Domain.csproj": {
+                "projectPath": "C:\\Projects\\Accounting\\Accounting.Domain\\Accounting.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Accounting\\Accounting.Domain\\Accounting.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Accounting\\Accounting.Domain\\Accounting.Domain.csproj",
+        "projectName": "Accounting.Domain",
+        "projectPath": "C:\\Projects\\Accounting\\Accounting.Domain\\Accounting.Domain.csproj",
+        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Accounting\\Accounting.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Projects\\Accounting\\Accounting.Dto\\Accounting.Dto.csproj": {
+                "projectPath": "C:\\Projects\\Accounting\\Accounting.Dto\\Accounting.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Accounting\\Accounting.Dto\\Accounting.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Accounting\\Accounting.Dto\\Accounting.Dto.csproj",
+        "projectName": "Accounting.Dto",
+        "projectPath": "C:\\Projects\\Accounting\\Accounting.Dto\\Accounting.Dto.csproj",
+        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Accounting\\Accounting.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Accounting\\Accounting.Infastructure\\Accounting.Infastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Accounting\\Accounting.Infastructure\\Accounting.Infastructure.csproj",
+        "projectName": "Accounting.Infastructure",
+        "projectPath": "C:\\Projects\\Accounting\\Accounting.Infastructure\\Accounting.Infastructure.csproj",
+        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Accounting\\Accounting.Infastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Projects\\Accounting\\Accounting.Dto\\Accounting.Dto.csproj": {
+                "projectPath": "C:\\Projects\\Accounting\\Accounting.Dto\\Accounting.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Accounting\\Accounting.WebAPI\\Accounting.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Accounting\\Accounting.WebAPI\\Accounting.WebAPI.csproj",
+        "projectName": "Accounting.WebAPI",
+        "projectPath": "C:\\Projects\\Accounting\\Accounting.WebAPI\\Accounting.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Accounting\\Accounting.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Projects\\Accounting\\Accounting.Business\\Accounting.Business.csproj": {
+                "projectPath": "C:\\Projects\\Accounting\\Accounting.Business\\Accounting.Business.csproj"
+              },
+              "C:\\Projects\\Accounting\\Accounting.DataAccess\\Accounting.DataAccess.csproj": {
+                "projectPath": "C:\\Projects\\Accounting\\Accounting.DataAccess\\Accounting.DataAccess.csproj"
+              },
+              "C:\\Projects\\Accounting\\Accounting.Domain\\Accounting.Domain.csproj": {
+                "projectPath": "C:\\Projects\\Accounting\\Accounting.Domain\\Accounting.Domain.csproj"
+              },
+              "C:\\Projects\\Accounting\\Accounting.Dto\\Accounting.Dto.csproj": {
+                "projectPath": "C:\\Projects\\Accounting\\Accounting.Dto\\Accounting.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

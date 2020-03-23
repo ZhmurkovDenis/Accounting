@@ -1,0 +1,11 @@
+C:\Projects\Accounting\Accounting.Infastructure\bin\Debug\netcoreapp3.0\Accounting.Infastructure.deps.json
+C:\Projects\Accounting\Accounting.Infastructure\bin\Debug\netcoreapp3.0\Accounting.Infastructure.dll
+C:\Projects\Accounting\Accounting.Infastructure\bin\Debug\netcoreapp3.0\Accounting.Infastructure.pdb
+C:\Projects\Accounting\Accounting.Infastructure\obj\Debug\netcoreapp3.0\Accounting.Infastructure.AssemblyInfoInputs.cache
+C:\Projects\Accounting\Accounting.Infastructure\obj\Debug\netcoreapp3.0\Accounting.Infastructure.AssemblyInfo.cs
+C:\Projects\Accounting\Accounting.Infastructure\obj\Debug\netcoreapp3.0\Accounting.Infastructure.dll
+C:\Projects\Accounting\Accounting.Infastructure\obj\Debug\netcoreapp3.0\Accounting.Infastructure.pdb
+C:\Projects\Accounting\Accounting.Infastructure\obj\Debug\netcoreapp3.0\Accounting.Infastructure.csprojAssemblyReference.cache
+C:\Projects\Accounting\Accounting.Infastructure\bin\Debug\netcoreapp3.0\Accounting.Dto.dll
+C:\Projects\Accounting\Accounting.Infastructure\bin\Debug\netcoreapp3.0\Accounting.Dto.pdb
+C:\Projects\Accounting\Accounting.Infastructure\obj\Debug\netcoreapp3.0\Accounting.Infastructure.csproj.CopyComplete

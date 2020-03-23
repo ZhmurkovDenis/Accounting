@@ -1,0 +1,8 @@
+C:\Projects\Accounting\Accounting.Dto\bin\Debug\netcoreapp3.0\Accounting.Dto.deps.json
+C:\Projects\Accounting\Accounting.Dto\bin\Debug\netcoreapp3.0\Accounting.Dto.dll
+C:\Projects\Accounting\Accounting.Dto\bin\Debug\netcoreapp3.0\Accounting.Dto.pdb
+C:\Projects\Accounting\Accounting.Dto\obj\Debug\netcoreapp3.0\Accounting.Dto.AssemblyInfoInputs.cache
+C:\Projects\Accounting\Accounting.Dto\obj\Debug\netcoreapp3.0\Accounting.Dto.AssemblyInfo.cs
+C:\Projects\Accounting\Accounting.Dto\obj\Debug\netcoreapp3.0\Accounting.Dto.dll
+C:\Projects\Accounting\Accounting.Dto\obj\Debug\netcoreapp3.0\Accounting.Dto.pdb
+C:\Projects\Accounting\Accounting.Dto\obj\Debug\netcoreapp3.0\Accounting.Dto.csprojAssemblyReference.cache

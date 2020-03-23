@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Accounting.Business/1.0.0": {
+        "dependencies": {
+          "Accounting.Domain": "1.0.0",
+          "Accounting.Infastructure": "1.0.0"
+        },
+        "runtime": {
+          "Accounting.Business.dll": {}
+        }
+      },
+      "Accounting.Domain/1.0.0": {
+        "dependencies": {
+          "Accounting.Dto": "1.0.0"
+        },
+        "runtime": {
+          "Accounting.Domain.dll": {}
+        }
+      },
+      "Accounting.Dto/1.0.0": {
+        "runtime": {
+          "Accounting.Dto.dll": {}
+        }
+      },
+      "Accounting.Infastructure/1.0.0": {
+        "dependencies": {
+          "Accounting.Dto": "1.0.0"
+        },
+        "runtime": {
+          "Accounting.Infastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Accounting.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accounting.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accounting.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accounting.Infastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

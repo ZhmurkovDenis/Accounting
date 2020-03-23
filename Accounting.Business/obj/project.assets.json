@@ -1,0 +1,132 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Accounting.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Accounting.Dto": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Accounting.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Accounting.Domain.dll": {}
+        }
+      },
+      "Accounting.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Accounting.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Accounting.Dto.dll": {}
+        }
+      },
+      "Accounting.Infastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Accounting.Dto": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Accounting.Infastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Accounting.Infastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Accounting.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Accounting.Domain/Accounting.Domain.csproj",
+      "msbuildProject": "../Accounting.Domain/Accounting.Domain.csproj"
+    },
+    "Accounting.Dto/1.0.0": {
+      "type": "project",
+      "path": "../Accounting.Dto/Accounting.Dto.csproj",
+      "msbuildProject": "../Accounting.Dto/Accounting.Dto.csproj"
+    },
+    "Accounting.Infastructure/1.0.0": {
+      "type": "project",
+      "path": "../Accounting.Infastructure/Accounting.Infastructure.csproj",
+      "msbuildProject": "../Accounting.Infastructure/Accounting.Infastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Accounting.Domain >= 1.0.0",
+      "Accounting.Infastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Denis\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projects\\Accounting\\Accounting.Business\\Accounting.Business.csproj",
+      "projectName": "Accounting.Business",
+      "projectPath": "C:\\Projects\\Accounting\\Accounting.Business\\Accounting.Business.csproj",
+      "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\Accounting\\Accounting.Business\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Projects\\Accounting\\Accounting.Domain\\Accounting.Domain.csproj": {
+              "projectPath": "C:\\Projects\\Accounting\\Accounting.Domain\\Accounting.Domain.csproj"
+            },
+            "C:\\Projects\\Accounting\\Accounting.Infastructure\\Accounting.Infastructure.csproj": {
+              "projectPath": "C:\\Projects\\Accounting\\Accounting.Infastructure\\Accounting.Infastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
